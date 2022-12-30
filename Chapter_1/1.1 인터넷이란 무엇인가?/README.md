@@ -53,8 +53,6 @@
 - 패킷 스위치와 통신 링크로 이루어진 네트워크
 - 종단 시스템에게 다양한 네트워크 접속을 제공 (가정용 초고속 접속, 고속 LAN 접속, 이동 무선 접속 등)
 - CP(content provider)에게 인터넷 접속을 제공 → 웹 사이트나 비디오 서버를 인터넷에 직접 연결할 수 있게 됨
-
-
 - ISP들의 상호 연결
   > 💡 인터넷은 종단 시스템을 서로 연결하는 것이므로 **종단 시스템에 접속을 제공하는 ISP들도 서로 연결되어야만 한다.**
     - 하위 계층 ISP는 국가 & 국제 상위 계층 ISP를 통해 서로 연결함 - 상위 계층 ISP들은 서로 직접 연결됨
@@ -67,13 +65,12 @@
     - `TCP(Transmission Control Protocol)`
     - `IP(Internet Protocol)` : 라우터와 종단 시스템 사이에서 송수신되는 패킷 포맷을 기술
 
+### Standards
 
 - IETF(Internet Engineering Task Force)
     - 국제 인터넷 표준화 기구
     - RFC(Requests for Comment) : IETF 표준 문서
     - TCP, IP, HTTP, SMTP 같은 프로토콜을 정의
-
-
 - IEEE 802 LAN 표준위원회
     - 이더넷과 무선 와이파이 표준을 기술
 
