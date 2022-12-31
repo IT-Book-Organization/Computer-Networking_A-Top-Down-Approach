@@ -17,7 +17,7 @@
 
 종단 시스템을 먼 거리에 위치한 다른 종단 시스템까지의 경로 상에 있는 첫 번째 라우터 즉, **가장 자리 라우터(edge router)에 연결하는 네트워크**를 말한다.  
 아래 그림에서의 굵은 선들은 여러 종류의 접속 네트워크들을 나타낸 것이다.
-<p align="center"><img width="450" alt="접속 네트워크" src="https://user-images.githubusercontent.com/86337233/210128184-301c72b1-c174-432e-b14d-8824c2a58cea.png">
+<p align="center"><img width="450" alt="접속 네트워크" src="https://user-images.githubusercontent.com/86337233/210129140-31bb75d0-c8f9-4a70-bb54-60c805b1fea8.png">
 
 네트워크 접속 기술들에 대하여 차례대로 알아보자.
 
@@ -161,11 +161,11 @@ _이는 1.3.2절에서 자세히 다룰 예정이다._
 
 아래는 전형적인 홈 네트워크를 나타낸 그림이다.
 
-<p align="center"><img width="650" alt="전형적인 홈 네트워크" src="https://user-images.githubusercontent.com/86337233/210128487-b8acdbb2-62e6-40c0-b74a-0bf173312dbc.png">
+<p align="center"><img width="600" alt="전형적인 홈 네트워크" src="https://user-images.githubusercontent.com/86337233/210128487-b8acdbb2-62e6-40c0-b74a-0bf173312dbc.png">
 
 ### 이더넷(**Ethernet)**
 
-<p align="center"><img width="650" alt="이더넷 인터넷 접속" src="https://user-images.githubusercontent.com/86337233/210128501-ff9fe3a4-bd45-408d-83e8-9d43f730cbbe.png">
+<p align="center"><img width="600" alt="이더넷 인터넷 접속" src="https://user-images.githubusercontent.com/86337233/210128501-ff9fe3a4-bd45-408d-83e8-9d43f730cbbe.png">
 
 - 이더넷 스위치에 연결하기 위해 `꼬임쌍선`을 이용 _(꼬임 쌍선은 1.2.2절에서 설명)_
 - 이더넷 스위치 혹은 상호연결된 스위치들의 네트워크는 다시 더 큰 인터넷으로 연결된다.
