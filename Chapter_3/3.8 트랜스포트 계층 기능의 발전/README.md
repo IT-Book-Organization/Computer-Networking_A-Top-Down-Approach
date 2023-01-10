@@ -40,7 +40,9 @@ e.g., `QUIC(Quic UDP Internet Connections)` = 빠른 UDP 인터넷 연결
 아래 그림을 통해 볼 수 있듯, QUIC은 UDP를 하위 트랜스포트 계층 프로토콜로 사용하는 `애플리케이션 계층 프로토콜`이며,  
 `HTTP/2` 버전 위에서 인터페이스되도록 설계되었다.
 
-(왼쪽 : 전통적인 보안 HTTP 프로토콜 스택 / 오른쪽 : 보안 QUIC 기반 HTTP/3 프로토콜 스택)
+<br/>
+
+왼쪽 : 전통적인 보안 HTTP 프로토콜 스택 / 오른쪽 : 보안 QUIC 기반 HTTP/3 프로토콜 스택
 
 <p align="center"><img width="700" alt="HTTP 프로토콜 스택" src="https://user-images.githubusercontent.com/86337233/211638914-123c4f6e-d1ce-4ec3-a88c-66785ab4a046.png">
 

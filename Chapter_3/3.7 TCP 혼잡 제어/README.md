@@ -490,7 +490,9 @@ ECN 비트의 두 번째 설정은 발신 호스트가 라우터에게 다음의
 
 TCP 연결 1과 2에 의해 실현되는 처리율은 다음과 같이 나타낼 수 있다.
 
-<p align="center"><img width="400" alt="처리율" src="https://user-images.githubusercontent.com/86337233/211625855-65fb1a01-7341-46a3-85d6-1e38f5e0be51.png">
+<br/>
+
+<p align="center"><img width="360" alt="처리율" src="https://user-images.githubusercontent.com/86337233/211625855-65fb1a01-7341-46a3-85d6-1e38f5e0be51.png">
 
 <br/>
 <br/>
