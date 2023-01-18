@@ -28,7 +28,7 @@ OpenFlow의 플로우 테이블로 알려진 `매치 플러스 액션 포워딩 
 
 ## 4.4.1 매치
 
-<p align="center"><img width="700" alt="HTTP 프로토콜 스택" src="https://user-images.githubusercontent.com/86337233/211638914-123c4f6e-d1ce-4ec3-a88c-66785ab4a046.png">
+<p align="center"><img width="700" alt="매치 인 액션 매치" src="https://user-images.githubusercontent.com/76640167/213117975-972cdf56-575f-4e0d-b9b2-662f3ea2278f.png">
 
 위 그림은 OpenFlow 1.0 `매치 플러스 액션` 규칙에서 매치될 수 있는 11개의 패킷 헤더 필드와 수신 포트 ID를 보여준다.
 
