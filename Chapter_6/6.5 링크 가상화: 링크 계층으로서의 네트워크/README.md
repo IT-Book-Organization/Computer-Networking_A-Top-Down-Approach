@@ -5,7 +5,7 @@
 
 ### MPLS 헤더
 
-<p align="center"><img width="300" alt="MPLS 헤더" src="https://user-images.githubusercontent.com/76640167/214874099-42e288e6-687a-46b6-a313-546fcdeed767.png">
+<p align="center"><img width="700" alt="MPLS 헤더" src="https://user-images.githubusercontent.com/76640167/214874099-42e288e6-687a-46b6-a313-546fcdeed767.png">
 
 MLPS가능 라우터에 의해 처리되는 링크 계층 프레임의 형식은 2계층 헤더와 3계층 헤더 사이에 작은 MPLS 헤더를 가진다.
 
@@ -21,7 +21,7 @@ MPLS 가능 라우터는 MPLS 레이블을 포워딩 테이블에서 찾아 적�
 
 즉, MPLS 가능 라우터는 목적지 IP 주소를 꺼내 볼 필요도 없고, 포워딩 테이블에서 최장 프리픽스 대응을 찾을 필요도 없다.
 
-<p align="center"><img width="300" alt="MPLS 네트워" src="https://user-images.githubusercontent.com/76640167/214874093-edf53d76-44dd-4d7e-b228-2c8df445c76b.png">
+<p align="center"><img width="700" alt="MPLS 네트워" src="https://user-images.githubusercontent.com/76640167/214874093-edf53d76-44dd-4d7e-b228-2c8df445c76b.png">
 
 R1에서 R4 까지만 MPLS 기능이 있을 때 어떻게 상호 동작하는지 알아보자.
 
