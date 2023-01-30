@@ -1,4 +1,4 @@
-# 오류 검출 및 정정 기술
+# 6.2 오류 검출 및 정정 기술
 
 <p align="center"><img width="400" alt="오류 검출" src="https://user-images.githubusercontent.com/76640167/214039458-a74c70d2-02cf-4826-aa1c-af15edab8b58.png">
 
@@ -97,7 +97,7 @@ d 비트들을 k 비트 정수처럼 다루어 이 k비트 정수들을 더해�
 
 ## 6.2.3 순환 중복 검사(CRC)
 
-*오늘날 컴퓨터 네트워크에서 널리 사용되는 오류 검출 기술은 `순환 중복 검사(cyclic rebundancy check, CRC) 코드` 를 사용한다.*
+*오늘날 컴퓨터 네트워크에서 널리 사용되는 오류 검출 기술은 `순환 중복 검사(cyclic redundancy check, CRC) 코드` 를 사용한다.*
 
 CRC 코드는 전송되는 비트열에 있는 0과 1 값을 계수로 갖는 다항식처럼 비트열을 생각할 수 있고, 또한 비트열에 적용되는 연산을 다항식 연산으로 이해하는 것이 가능하기 때문에 `다항식 코드(polynomial code)`로도 알려졌다.
 
