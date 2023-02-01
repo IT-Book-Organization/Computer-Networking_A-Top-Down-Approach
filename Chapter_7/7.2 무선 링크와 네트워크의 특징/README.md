@@ -128,7 +128,7 @@ SNR 및 BER 값은 이동성의 결과 또는 환경의 변화로 인해 바뀔 
 
 <br/>
 
-<p align="center"><img width="400" alt="장애물로 인한 숨은 터미널 문제" src="https://user-images.githubusercontent.com/86337233/216113474-f5e1735e-1927-4332-ae9c-af83c6852540.png">
+<p align="center"><img width="350" alt="장애물로 인한 숨은 터미널 문제" src="https://user-images.githubusercontent.com/86337233/216113474-f5e1735e-1927-4332-ae9c-af83c6852540.png">
 
 <br/>
 <br/>
@@ -147,7 +147,7 @@ SNR 및 BER 값은 이동성의 결과 또는 환경의 변화로 인해 바뀔 
 
 <br/>
 
-<p align="center"><img width="400" alt="페이딩" src="https://user-images.githubusercontent.com/86337233/216113475-3c2664ad-be89-4944-b2df-aff0097ee2d0.png">
+<p align="center"><img width="350" alt="페이딩" src="https://user-images.githubusercontent.com/86337233/216113475-3c2664ad-be89-4944-b2df-aff0097ee2d0.png">
 
 <br/>
 <br/>
