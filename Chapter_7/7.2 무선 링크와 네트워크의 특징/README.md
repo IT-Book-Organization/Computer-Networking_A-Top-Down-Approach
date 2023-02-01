@@ -18,7 +18,7 @@
 
 ### 다른 출발지로부터의 간섭
 
-- 동일 주파수 대역으로 전송되는 무선 신호들은 서로 간섭하게 된다.
+- **동일 주파수 대역으로 전송되는** 무선 신호들은 서로 `간섭`하게 된다.
 - 이러한 송신자 간의 간섭 외에 주변의 전자기 잡음(e.g., 근처의 모터 또는 전자레인지로 인한) 등도 간섭을 일으킬 수 있다.
 
 이런 이유로 최근의 802.11 표준들은 5 GHz 대역에서 동작한다.
@@ -61,7 +61,7 @@
 
 <br/>
 <br/>
-
+<br/>
 
 아래 그림은 이상적인 무선 채널에서 세 가지 변조(modulation) 기법의 비트 오류율을 나타내는 BER 값과 SNR 값의 관계를 보여준다.
 
@@ -158,7 +158,7 @@ SNR 및 BER 값은 이동성의 결과 또는 환경의 변화로 인해 바뀔 
 <br/>
 <br/>
 
-# 7.2.1 CDMA
+## 7.2.1 CDMA
 
 `코드 분할 다중 접속(code division multiple access, CDMA)`은 **채널 분할 접속 프로토콜**의 하나로서,  
 무선 랜 및 셀룰러 기술에서 아주 많이 사용되고 있다.
@@ -186,7 +186,7 @@ CDMA 프로토콜에서는 송신자가 전송하는 각 비트를 확장해서
 <br/>
 <br/>
 
-> 데이터 비트들이 **CDMA 인코더에 도착하는 속도에 의해** 시간의 단위가 정의된다고 가정하자.
+데이터 비트들이 **CDMA 인코더에 도착하는 속도에 의해** 시간의 단위가 정의된다고 가정하자.
 
 즉, 전송되는 각각의 원래 데이터 비트는 한 `비트 슬롯` 시간이 필요하다.
 
@@ -214,12 +214,9 @@ CDMA의 동작을 구체적으로 알아보기 위해, i번째 데이터 비트�
 
 <p align="center"><img width="700" alt="이얏홍" src="https://user-images.githubusercontent.com/86337233/216113482-da191ac7-725e-4a0e-a071-a3b3165f944f.png">
 
-<br/>
-<br/>
 
 <p align="center"><img width="200" alt="Zi,m" src="https://user-images.githubusercontent.com/86337233/216113483-93d5937f-de7b-4c8e-831a-c6ae10cc0019.png">
 
-<br/>
 <br/>
 <br/>
 
@@ -254,14 +251,10 @@ e.g., 같은 미니슬롯에서 3명의 송신자가 1의 값을 전송하고 4�
 다수의 송신자가 있는 경우에도 송신자 s는 아래 식을 사용해서 자신의 인코딩된 전송 비트열을 정확히 계산한다.  
 *(위에서의 식과 동일)*
 
-<p align="center"><img width="450" alt="Zs.i,m" src="https://user-images.githubusercontent.com/86337233/216113486-90065ed3-f86a-42f0-aba7-4d3b08e5f03f.png">
-
-<br/>
-<br/>
+<p align="center"><img width="430" alt="Zs.i,m" src="https://user-images.githubusercontent.com/86337233/216113486-90065ed3-f86a-42f0-aba7-4d3b08e5f03f.png">
 
 <p align="center"><img width="200" alt="Zs.i,m 계산식" src="https://user-images.githubusercontent.com/86337233/216113493-b9678a2f-0ee4-42f0-9277-543ed179a789.png">
 
-<br/>
 <br/>
 <br/>
 
@@ -270,7 +263,6 @@ i번째 비트 슬롯의 m번째 미니슬롯은 그 미니슬롯 동안 모든 
 
 <p align="center"><img width="210" alt="Z*.i,m" src="https://user-images.githubusercontent.com/86337233/216113499-cac446b2-9b58-473f-95bf-6bc349ad6c3f.png">
 
-<br/>
 <br/>
 <br/>
 
@@ -295,10 +287,10 @@ i번째 비트 슬롯의 m번째 미니슬롯은 그 미니슬롯 동안 모든 
 <br/>
 <br/>
 <br/>
-<br/>
 
 > 💡 CDMA는 (시간이나 주파수가 아닌) <b>코드를 분할(partitioning)</b>해서 각 노드에게 적당한 코드를 할당하는 분할 프로토콜이다.
 
+<br/>
 <br/>
 
 위에서는 CDMA에 대한 필수적인 설명만 했지만, 실제로는 많은 어려운 문제들이 있다.
