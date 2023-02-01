@@ -14,7 +14,7 @@
 
 <br/>
 
-### OPenFlow 1.0
+### OpenFlow 1.0
 
 명확하고 간결한 방식으로 SDN 개념 및 기능을 도입한 OPenFlow 1.0을 살펴보자.
 
