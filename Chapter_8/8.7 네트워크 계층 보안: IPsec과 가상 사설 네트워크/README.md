@@ -30,7 +30,7 @@ IPsec이라고 알려진 IP 보안 프로토콜은 네트워크 계층의 보안
 
 <p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/217747985-e18a7a43-82de-41fe-831c-cb5fee6a16d1.png" alt="VPN"></p>
 
-공공 인터넷을 통과하지 않을 때는 평번한 IPv4 데이터그램이 사용되고, 통과해야할 때는 IPsec을 지원하는 라우터가 IPv4 데이터그램을 IPsec 데이터그램으로 바꾼 후 인터넷으로 전송한다.
+공공 인터넷을 통과하지 않을 때는 평범한 IPv4 데이터그램이 사용되고, 통과해야할 때는 IPsec을 지원하는 라우터가 IPv4 데이터그램을 IPsec 데이터그램으로 바꾼 후 인터넷으로 전송한다.
 
 IPsec 데이터그램은 전형적인 IPv4 헤더를 가지고 있어 공공 인터넷의 라우터는 IPv4 데이터그램과 똑같이 이를 전달한다.
 
