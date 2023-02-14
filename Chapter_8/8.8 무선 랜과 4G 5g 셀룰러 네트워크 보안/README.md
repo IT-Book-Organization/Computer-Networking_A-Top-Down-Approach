@@ -16,7 +16,7 @@
 
 ### 상호 인증과 암호화 키 생성 및 사용 절차
 
-<p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/217584324-5d6e5c1a-4765-4807-bfb9-54fab7f71106.png" alt="절차"></p>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/218796266-8169a7a8-e4db-4d88-a283-ee029bd2726f.png" alt="절차"></p>
 
 
 1. 발견
@@ -44,7 +44,7 @@ WPA2는 AES 대칭키 암호화를 의무화하여 WPA1을 개선했다.
 
 <br/>
 
-<p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/217584324-5d6e5c1a-4765-4807-bfb9-54fab7f71106.png" alt="상호 인증과 공유 대칭키"></p>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/218796256-1bbfc9c3-d8a0-4db0-babd-44c69a83f6d2.png" alt="상호 인증과 공유 대칭키"></p>
 
 
 위 그림은 간략한 네 방향 핸드셰이크 프로토콜을 보여준다.
@@ -61,7 +61,7 @@ WPA2는 AES 대칭키 암호화를 의무화하여 WPA1을 개선했다.
 
 ### 802.11 보안 메시징 프로토콜
 
-<p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/217584324-5d6e5c1a-4765-4807-bfb9-54fab7f71106.png" alt="프로토콜"></p>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/218797046-55dc787e-6cf4-41da-96f7-9dda1e363ee0.png" alt="프로토콜"></p>
 
 
 위 그림은 802.11 보안 프레임워크를 구현하기 위해 사용된 `확장 인증 프로토콜(Extensible Authentication Protocol, EAP)`를 보여준다.
@@ -78,7 +78,7 @@ EAP 메시지들은 EAPoL을 사용하여 캡슐화되어 무선 링크로 전�
 
 4G/5G 환경에서의 상호 인증과 키 생성의 목적들은 802.11 환경에서와 동일하다.
 
-<p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/217584324-5d6e5c1a-4765-4807-bfb9-54fab7f71106.png" alt="4G"></p>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/76640167/218796233-05da2b86-db94-4546-8507-1489d7379783.png" alt="4G"></p>
 
 
 4G 인증과 키 동의 프로토콜
