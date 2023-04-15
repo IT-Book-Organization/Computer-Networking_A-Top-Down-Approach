@@ -361,6 +361,8 @@ HTTP 서버는 상태를 유지하지 않는다.
 그러나 서버가 사용자 접속을 제한하거나 사용자에 따라 콘텐츠를 제공하기 원하므로  
 **사용자를 확인하는 것이 바람직할 때가 있는데, 이때 HTTP는 `쿠키(cookie)`를 사용한다.**
 
+> over stateless HTTP, `cookie` provides a **state related service layer**
+
 <br/>
 
 <p align="center"><img width="700" alt="쿠키를 이용한 상태 유지" src="https://user-images.githubusercontent.com/76640167/210499304-190c6dc5-ab64-4864-9f25-bb27fc63f460.png">
@@ -387,6 +389,8 @@ HTTP 서버는 상태를 유지하지 않는다.
 
 > `웹 캐시(cache)`(`프록시(proxy) 서버`)는 기점 웹 서버를 대신하여 HTTP 요구를 충족시키는 개체이다.
 
+> Goal: satisfy client request **without involving origin server**
+
 웹 캐시는 자체의 저장 디스크를 갖고 있어, **최근 호출된 객체의 사본을 저장 및 보존한다.**
 
 <br/>
@@ -404,11 +408,16 @@ HTTP 서버는 상태를 유지하지 않는다.
    이후 웹 캐시는 캐시와 서버 간의 TCP 연결로 객체에 대한 HTTP 요청을 보낸다. 기점 서버는 웹 캐시로 HTTP 응답 메시지를 보낸다.
 4. 웹 캐시의 객체를 수신할 때, 객체를 지역 저장장치에 복사하고 클라이언트 브라우저에 HTTP 응답 메시지를 보낸다. (이때, 이미 설정된 TCP를 통해 보낸다.)
 
+<br/>
+
 > 캐시(cache)는 요청과 응답을 모두 하는 클라이언트이면서 서버이다.
+
+- `server` for original requesting client
+- `client` to origin server
 
 <br/>
 
-일반적으로 웹 캐시는 ISP가 구입하고 설치한다.
+일반적으로 웹 캐시는 ISP(university, company, residential ISP)가 구입하고 설치한다.
 
 <br/>
 <br/>
@@ -426,7 +435,7 @@ HTTP 서버는 상태를 유지하지 않는다.
 
 <br/>
 
-### 웹캐시 미사용과 사용 성능 비교
+### 웹 캐시 미사용과 사용 성능 비교
 
 <p align="center"><img width="370" alt="병목 현상" src="https://user-images.githubusercontent.com/76640167/210504713-f02f053c-e503-413f-8cbc-046c55082359.png">
 
@@ -513,6 +522,8 @@ LAN의 트래픽 강도는 많아야 수십 ms의 지연을 야기하므로 LAN 
 
 > 💡 HTTP는 클라이언트가 **브라우저로 전달되는 모든 객체가 최신의 것임을 확인하면서 캐싱**해주는데,  
 > 이러한 방식을 `조건부 GET(conditional GET` 이라고 한다.
+
+> Goal: don't send object if cache has **up-to-date cached version**
 
 HTTP 요청 메시지가 (1) GET 방식을 사용하고, (2) `If-modified-since 헤더`를 포함한다면, 그것이 조건부 GET이다.
 
