@@ -77,7 +77,7 @@ D(cs) ≧ max{ NF/u(s) , F/d(min)}
 즉, 분배시간을 D(p2p)라고 하면 다음과 같은 수식을 얻을 수 있다.
 
 ```
-D(p2p) ≧ max{ F/u(s) , F/d(min), NF/u(total) 
+D(p2p) ≧ max {F/u(s) , F/d(min), NF/u(total)}
 ```
 
 <br/>
