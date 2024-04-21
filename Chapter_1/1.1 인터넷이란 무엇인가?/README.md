@@ -31,7 +31,7 @@
 
 ### 통신 링크(communication link)
 
-- 다양한 `전송률(transmission rate, 링크 대역폭 또는 bandwith)`을 이용해 `패킷(packet = 데이터)`을 전송한다.
+- 다양한 `전송률(transmission rate, 링크 대역폭 또는 bandwidth)`을 이용해 `패킷(packet = 데이터)`을 전송한다.
 - 전송률의 단위 : **bps(bits per second, 초당 비트 수)**
 - 동축케이블, 구리선, 광케이블, 라디오 스펙트럼을 포함한 다양한 물리 매체로 구성된다.
 
