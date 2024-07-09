@@ -22,7 +22,7 @@
 
 하지만 목적지가 AS 외부에 있는 경우, `BGP`가 필요하다.
 
-BGP에서는 패킷이 `CIDER(Classless Inter-Domain Routing) 형식`으로 표현된, `주소의 앞쪽 프리픽스(prefix)`를 향해 전달된다.
+BGP에서는 패킷이 `CIDR(Classless Inter-Domain Routing) 형식`으로 표현된, `주소의 앞쪽 프리픽스(prefix)`를 향해 전달된다.
 
 각 프리픽스는 서브넷이나 서브넷의 집합을 나타낸다. (e.g., 139.16.68/22)
 
