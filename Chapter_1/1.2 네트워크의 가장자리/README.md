@@ -68,6 +68,10 @@
 1. 가정의 DSL 모뎀은 수신한 디지털 데이터를 전화선을 통해 CO로 전송하기 위해, 해당 데이터를 고주파 신호로 변환한다.
 2. 여러 가정으로부터의 아날로그 신호는 **DSLAM에서 디지털 포맷으로 다시 변환된다.**
 
+communication - voice: (telephones) TRS, PSTN
+              - data: PSDN(TCP/IP)
+
+
 <br/>
 
 #### 주파수 분할 다중화(Frequency-Division Multiplexing, FDM)
